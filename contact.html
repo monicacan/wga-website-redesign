@@ -1,0 +1,137 @@
+<!--Monica Can, 5/5/2024-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mc">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Contact - MGA</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+          <a href="index.html" class="nav-brand"><img src="assets/logo.png" alt="" class="nav-logo"></a>
+    
+          <div>
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+              <li class="nav-item"><a href="services.html" class="nav-link">What We Do</a></li>
+              <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Get Involved</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+              <li class="nav-item"><a class="button-primary body">Donate Now</a></li>
+            </ul>
+          </div>
+          <!--Div ending tag-->
+    
+          <div class="hamburger">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          </div>
+          <!--Div ending tag-->
+        </nav>
+      </header>
+
+    <main>
+        <section class="section-page-title">
+            <div class="container-1-column">
+                <h1 class="display">Contact Us</h1>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container-2-columns">
+                <div class="column1">
+                    <form name="contact-form" method="post" id="contact-form" action="demo.php">
+                        <h2 class="headline">Contact form</h2>
+                        <div class="form-field">
+                            <label for="Name" class="label"> Name </label>
+                            <input type="text" name="Name" id="Name" class="body" required="required"
+                                placeholder="Your name">
+                        </div>
+                        <div class="form-field">
+                            <label for="Email" class="label"> Email address </label>
+                            <input type="text" name="Email" id="Email" class="body" required="required"
+                                placeholder="Email address">
+                        </div>
+                        <div class="form-field">
+                            <label for="Subject" class="label"> Subject </label>
+                            <input type="text" name="Subject" id="Subject" class="body" required="required"
+                                placeholder="Enter your subject">
+                        </div>
+                        <div class="form-field">
+                            <label for="Message" class="label"> Message </label>
+                            <textarea name="Message" id="Message" class="body" required="required"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <button class="button-primary body">Submit</button>
+                    </form>
+                </div>
+                <div class="column">
+                    <h3 class="title">For general inquiry</h3>
+                    <p class="body">Email: <a href="mailto:info@mgakc.org">info@mgakc.org</a></p>
+                    <br>
+                    <h3 class="title">Social media</h3>
+                    <p class="body">Facebook: <a href="https://www.facebook.com/mgakc/">@mgakc</a></p>
+                    <p class="body">Instagram: <a href="https://www.instagram.com/mga_heartland/">@mga_heartland</a></p>
+                    <p class="body">X (Twitter): <a href="https://twitter.com/myastheniakc"> @myastheniakc</a></p>
+                    <p class="body">Youtube: <a href="https://www.youtube.com/user/mgakc">@mgakc</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section">
+        <img src="assets/logo.png" alt="" class="logo">
+        <br><br><br>
+        <div class="container-grid">
+            <div class="grid-item">
+                <a href="" class="subhead">Contact Us</a>
+                <p class="body">2340 E. Meyer Blvd.,<br>
+                    Building 1, Suite 300A<br>
+                    Kansas City, MO64132 US<br>
+                    816-256-4100<br>
+                    <a href="mailto:info@mgakc.org" class="body">info@mgakc.org</a>
+                </p>
+            </div>
+            <div class="grid-item">
+                <a href="" class="subhead">About Us</a>
+                <a href="" class="body">Meet the team</a>
+                <a href="" class="body">Board of directors</a>
+                <a href="" class="body">Medical Advisory Committee</a>
+            </div>
+            <div class="grid-item">
+                <a href="" class="subhead">What we do</a>
+                <a href="" class="body">Onsite clinics</a>
+                <a href="" class="body">Support groups</a>
+                <a href="" class="body">Community Events</a>
+            </div>
+            <div class="grid-item">
+                <a href="" class="subhead">Resources</a>
+                <a href="" class="body">What is MG?</a>
+                <a href="" class="body">Navigating MG</a>
+                <a href="" class="body">Researching MG</a>
+            </div>
+            <div class="grid-item">
+                <a href="" class="subhead">Get Involved</a>
+                <a href="" class="body">Volunteer</a>
+                <a href="" class="body">Donate</a>
+                <a href="" class="body">Tell your story</a>
+            </div>
+        </div>
+        <p class="body">Copyright &copy; 2023 Myasthenia Gravis Association. All rights reserved.</p>
+        <a href="process.html" class="subhead">Project & Process Page</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
